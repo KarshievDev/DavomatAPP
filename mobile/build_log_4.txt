@@ -1,0 +1,598 @@
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:shared:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:compileJava NO-SOURCE
+> Task :gradle-plugin:shared:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:processResources NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:classes UP-TO-DATE
+> Task :gradle-plugin:shared:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin-shared:jar UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:compileJava NO-SOURCE
+> Task :gradle-plugin:settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-settings-plugin:jar UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle-plugin:react-native-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-module-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :expo-module-gradle-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileKotlin UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:processResources UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:classes UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:pluginDescriptors UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:processResources UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:classes UP-TO-DATE
+> Task :expo-gradle-plugin:expo-autolinking-plugin:jar UP-TO-DATE
+> Task :gradle-plugin:react-native-gradle-plugin:jar UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileKotlin UP-TO-DATE
+> Task :expo-module-gradle-plugin:compileJava NO-SOURCE
+> Task :expo-module-gradle-plugin:classes UP-TO-DATE
+> Task :expo-module-gradle-plugin:jar UP-TO-DATE
+
+> Configure project :
+[32m[ExpoRootProject][0m Using the following versions:
+  - buildTools:  [32m36.0.0[0m
+  - minSdk:      [32m24[0m
+  - compileSdk:  [32m36[0m
+  - targetSdk:   [32m36[0m
+  - ndk:         [32m25.1.8937393[0m
+  - kotlin:      [32m2.1.20[0m
+  - ksp:         [32m2.1.20-2.0.1[0m
+
+> Configure project :expo
+
+Using expo modules
+  - [32mexpo-constants[0m (18.0.13)
+  - [32mexpo-modules-core[0m (3.0.29)
+  - [33m[?][0m [32mexpo-asset[0m (12.0.12)
+  - [33m[?][0m [32mexpo-camera[0m (17.0.10)
+  - [33m[?][0m [32mexpo-device[0m (8.0.10)
+  - [33m[?][0m [32mexpo-file-system[0m (19.0.21)
+  - [33m[?][0m [32mexpo-font[0m (14.0.11)
+  - [33m[?][0m [32mexpo-haptics[0m (15.0.8)
+  - [33m[?][0m [32mexpo-image[0m (3.0.11)
+  - [33m[?][0m [32mexpo-image-loader[0m (6.0.0)
+  - [33m[?][0m [32mexpo-image-picker[0m (17.0.10)
+  - [33m[?][0m [32mexpo-keep-awake[0m (15.0.8)
+  - [33m[?][0m [32mexpo-linking[0m (8.0.11)
+  - [33m[?][0m [32mexpo-location[0m (19.0.8)
+  - [33m[?][0m [32mexpo-splash-screen[0m (31.0.13)
+  - [33m[?][0m [32mexpo-system-ui[0m (6.0.9)
+  - [33m[?][0m [32mexpo-web-browser[0m (15.0.10)
+
+
+> Task :expo-modules-core:preBuild UP-TO-DATE
+> Task :app:generateAutolinkingNewArchitectureFiles
+> Task :app:generateAutolinkingPackageList
+> Task :app:generateCodegenSchemaFromJavaScript SKIPPED
+> Task :app:generateCodegenArtifactsFromSchema SKIPPED
+> Task :app:generateReactNativeEntryPoint
+> Task :react-native-reanimated:assertMinimalReactNativeVersionTask
+> Task :react-native-reanimated:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-reanimated:assertWorkletsVersionTask
+> Task :react-native-gesture-handler:generateCodegenSchemaFromJavaScript
+> Task :react-native-safe-area-context:generateCodegenSchemaFromJavaScript
+
+> Task :expo-constants:createExpoConfig
+The NODE_ENV environment variable is required but was not specified. Ensure the project is bundled with Expo CLI or NODE_ENV is set. Using only .env.local and .env
+
+> Task :expo-constants:preBuild
+> Task :react-native-async-storage_async-storage:generateCodegenSchemaFromJavaScript
+> Task :react-native-svg:generateCodegenSchemaFromJavaScript
+> Task :react-native-screens:generateCodegenSchemaFromJavaScript
+> Task :react-native-worklets:assertMinimalReactNativeVersionTask
+> Task :react-native-worklets:assertNewArchitectureEnabledTask SKIPPED
+> Task :react-native-reanimated:generateCodegenSchemaFromJavaScript
+> Task :react-native-worklets:generateCodegenSchemaFromJavaScript
+> Task :react-native-async-storage_async-storage:generateCodegenArtifactsFromSchema
+> Task :react-native-async-storage_async-storage:preBuild
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:preDebugBuild
+> Task :react-native-gesture-handler:generateCodegenArtifactsFromSchema
+> Task :react-native-gesture-handler:preBuild
+> Task :expo-modules-core:preDebugBuild UP-TO-DATE
+> Task :react-native-safe-area-context:generateCodegenArtifactsFromSchema
+> Task :react-native-safe-area-context:preBuild
+> Task :react-native-async-storage_async-storage:preDebugBuild
+> Task :react-native-async-storage_async-storage:writeDebugAarMetadata
+> Task :react-native-gesture-handler:preDebugBuild
+> Task :react-native-gesture-handler:writeDebugAarMetadata
+> Task :react-native-safe-area-context:preDebugBuild
+> Task :expo-constants:writeDebugAarMetadata
+> Task :expo-modules-core:writeDebugAarMetadata
+> Task :expo-constants:generateDebugResValues
+> Task :react-native-safe-area-context:writeDebugAarMetadata
+> Task :expo-modules-core:generateDebugResValues
+> Task :react-native-screens:generateCodegenArtifactsFromSchema
+> Task :react-native-screens:preBuild
+> Task :react-native-screens:preDebugBuild
+> Task :react-native-async-storage_async-storage:generateDebugResValues
+> Task :react-native-async-storage_async-storage:generateDebugResources
+> Task :react-native-screens:writeDebugAarMetadata
+> Task :expo-modules-core:generateDebugResources
+> Task :expo-constants:generateDebugResources
+> Task :react-native-gesture-handler:generateDebugResValues
+> Task :react-native-gesture-handler:generateDebugResources
+> Task :react-native-svg:generateCodegenArtifactsFromSchema
+> Task :react-native-svg:preBuild
+> Task :react-native-svg:preDebugBuild
+> Task :react-native-svg:writeDebugAarMetadata
+> Task :react-native-safe-area-context:generateDebugResValues
+> Task :react-native-safe-area-context:generateDebugResources
+> Task :react-native-gesture-handler:packageDebugResources
+> Task :react-native-async-storage_async-storage:packageDebugResources
+> Task :react-native-svg:generateDebugResValues
+> Task :expo-modules-core:packageDebugResources
+> Task :expo-constants:packageDebugResources
+> Task :react-native-screens:generateDebugResValues
+> Task :expo-constants:extractDeepLinksDebug
+> Task :expo-modules-core:extractDeepLinksDebug
+> Task :react-native-safe-area-context:packageDebugResources
+> Task :react-native-async-storage_async-storage:extractDeepLinksDebug
+> Task :react-native-svg:generateDebugResources
+> Task :react-native-screens:generateDebugResources
+> Task :react-native-svg:packageDebugResources
+> Task :react-native-gesture-handler:extractDeepLinksDebug
+
+> Task :react-native-async-storage_async-storage:processDebugManifest
+package="com.reactnativecommunity.asyncstorage" found in source AndroidManifest.xml: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\@react-native-async-storage\async-storage\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.reactnativecommunity.asyncstorage" from the source AndroidManifest.xml: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\@react-native-async-storage\async-storage\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-reanimated:generateCodegenArtifactsFromSchema
+> Task :react-native-safe-area-context:extractDeepLinksDebug
+> Task :react-native-gesture-handler:processDebugManifest
+
+> Task :expo-modules-core:processDebugManifest
+C:\DAVOMATAPP\node_modules\expo-modules-core\android\src\main\AndroidManifest.xml:8:9-11:45 Warning:
+	meta-data#com.facebook.soloader.enabled@android:value was tagged at AndroidManifest.xml:8 to replace other declarations but no other declaration present
+
+> Task :react-native-svg:extractDeepLinksDebug
+> Task :expo-constants:processDebugManifest
+
+> Task :react-native-safe-area-context:processDebugManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package="com.th3rdwave.safeareacontext" from the source AndroidManifest.xml: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+
+> Task :react-native-svg:processDebugManifest
+> Task :react-native-screens:packageDebugResources
+> Task :react-native-async-storage_async-storage:compileDebugLibraryResources
+> Task :expo-constants:compileDebugLibraryResources
+> Task :react-native-screens:extractDeepLinksDebug
+> Task :expo-modules-core:compileDebugLibraryResources
+> Task :react-native-gesture-handler:compileDebugLibraryResources
+> Task :react-native-screens:processDebugManifest
+> Task :react-native-svg:parseDebugLocalResources
+> Task :react-native-gesture-handler:parseDebugLocalResources
+> Task :expo-modules-core:parseDebugLocalResources
+> Task :react-native-async-storage_async-storage:parseDebugLocalResources
+> Task :expo-constants:parseDebugLocalResources
+> Task :react-native-safe-area-context:compileDebugLibraryResources
+> Task :react-native-worklets:generateCodegenArtifactsFromSchema
+> Task :react-native-reanimated:prepareReanimatedHeadersForPrefabs
+> Task :react-native-reanimated:preBuild
+> Task :react-native-reanimated:preDebugBuild
+> Task :react-native-worklets:prepareWorkletsHeadersForPrefabs
+> Task :react-native-worklets:preBuild
+> Task :react-native-worklets:preDebugBuild
+> Task :react-native-safe-area-context:parseDebugLocalResources
+> Task :react-native-worklets:writeDebugAarMetadata
+> Task :react-native-worklets:generateDebugResValues
+> Task :react-native-worklets:generateDebugResources
+> Task :react-native-screens:compileDebugLibraryResources
+> Task :react-native-worklets:packageDebugResources
+> Task :react-native-worklets:extractDeepLinksDebug
+> Task :expo:generatePackagesList
+> Task :expo:preBuild
+> Task :app:preBuild
+> Task :app:preDebugBuild
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :react-native-screens:parseDebugLocalResources
+> Task :expo:preDebugBuild
+> Task :expo:writeDebugAarMetadata
+> Task :expo:generateDebugResValues
+> Task :react-native-worklets:processDebugManifest
+> Task :expo:generateDebugResources
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugResValues
+> Task :react-native-worklets:parseDebugLocalResources
+> Task :expo:packageDebugResources
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :expo:extractDeepLinksDebug
+> Task :react-native-reanimated:generateDebugResValues
+> Task :react-native-reanimated:writeDebugAarMetadata
+> Task :react-native-reanimated:generateDebugResources
+> Task :expo:processDebugManifest
+> Task :react-native-worklets:generateDebugRFile
+> Task :react-native-reanimated:packageDebugResources
+> Task :react-native-reanimated:extractDeepLinksDebug
+> Task :react-native-svg:generateDebugRFile
+> Task :expo-modules-core:generateDebugRFile
+> Task :expo:parseDebugLocalResources
+> Task :react-native-safe-area-context:generateDebugRFile
+> Task :react-native-svg:compileDebugLibraryResources
+> Task :react-native-reanimated:compileDebugLibraryResources
+> Task :react-native-reanimated:processDebugManifest
+> Task :expo:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo:generateDebugBuildConfig
+> Task :expo-constants:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-constants:generateDebugBuildConfig
+> Task :expo-modules-core:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :expo-modules-core:generateDebugBuildConfig
+> Task :expo-constants:generateDebugRFile
+> Task :react-native-worklets:compileDebugLibraryResources
+> Task :react-native-async-storage_async-storage:generateDebugRFile
+> Task :expo-constants:javaPreCompileDebug
+> Task :expo:compileDebugLibraryResources
+> Task :react-native-gesture-handler:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-reanimated:parseDebugLocalResources
+> Task :react-native-gesture-handler:generateDebugBuildConfig
+> Task :react-native-screens:generateDebugRFile
+> Task :react-native-reanimated:generateDebugBuildConfig
+> Task :react-native-async-storage_async-storage:generateDebugBuildConfig
+> Task :react-native-gesture-handler:javaPreCompileDebug
+> Task :react-native-async-storage_async-storage:javaPreCompileDebug
+> Task :react-native-svg:generateDebugBuildConfig
+> Task :expo:javaPreCompileDebug
+> Task :react-native-safe-area-context:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-worklets:generateDebugBuildConfig
+> Task :react-native-safe-area-context:generateDebugBuildConfig
+> Task :react-native-svg:javaPreCompileDebug
+> Task :react-native-reanimated:generateDebugRFile
+> Task :react-native-worklets:javaPreCompileDebug
+> Task :react-native-reanimated:javaPreCompileDebug
+> Task :app:mapDebugSourceSetPaths
+> Task :expo:generateDebugRFile
+> Task :react-native-gesture-handler:generateDebugRFile
+> Task :react-native-screens:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :react-native-screens:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata
+> Task :expo:mergeDebugShaders
+> Task :expo:compileDebugShaders NO-SOURCE
+> Task :expo:generateDebugAssets UP-TO-DATE
+> Task :expo:mergeDebugAssets
+> Task :expo-constants:mergeDebugShaders
+> Task :expo-constants:compileDebugShaders NO-SOURCE
+> Task :expo-constants:generateDebugAssets UP-TO-DATE
+> Task :expo-constants:mergeDebugAssets
+> Task :react-native-gesture-handler:mergeDebugShaders
+> Task :react-native-gesture-handler:compileDebugShaders NO-SOURCE
+> Task :react-native-gesture-handler:generateDebugAssets UP-TO-DATE
+> Task :react-native-gesture-handler:mergeDebugAssets
+> Task :react-native-reanimated:mergeDebugShaders
+> Task :react-native-reanimated:compileDebugShaders NO-SOURCE
+> Task :react-native-reanimated:generateDebugAssets UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugAssets
+> Task :react-native-reanimated:processDebugJavaRes NO-SOURCE
+> Task :expo:mergeDebugJniLibFolders
+> Task :expo:mergeDebugNativeLibs NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectOnly
+> Task :expo-constants:mergeDebugJniLibFolders
+> Task :expo-constants:mergeDebugNativeLibs NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectOnly
+> Task :react-native-gesture-handler:mergeDebugJniLibFolders
+> Task :react-native-reanimated:mergeDebugJniLibFolders
+> Task :expo:stripDebugDebugSymbols NO-SOURCE
+> Task :expo:copyDebugJniLibsProjectAndLocalJars
+> Task :expo:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo:prepareDebugArtProfile UP-TO-DATE
+> Task :expo:prepareLintJarForPublish UP-TO-DATE
+> Task :expo-constants:stripDebugDebugSymbols NO-SOURCE
+> Task :expo-constants:copyDebugJniLibsProjectAndLocalJars
+> Task :expo-constants:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :expo-constants:prepareDebugArtProfile UP-TO-DATE
+> Task :expo-constants:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-gesture-handler:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-gesture-handler:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-gesture-handler:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-reanimated:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :react-native-reanimated:prepareDebugArtProfile UP-TO-DATE
+> Task :react-native-reanimated:prepareLintJarForPublish UP-TO-DATE
+> Task :react-native-reanimated:mergeDebugJavaResource
+> Task :expo-modules-core:javaPreCompileDebug
+> Task :react-native-safe-area-context:javaPreCompileDebug
+> Task :react-native-screens:javaPreCompileDebug
+> Task :expo-modules-core:mergeDebugShaders
+> Task :expo-modules-core:compileDebugShaders NO-SOURCE
+> Task :expo-modules-core:generateDebugAssets UP-TO-DATE
+> Task :expo-modules-core:mergeDebugAssets
+> Task :react-native-safe-area-context:mergeDebugShaders
+> Task :react-native-safe-area-context:compileDebugShaders NO-SOURCE
+> Task :react-native-safe-area-context:generateDebugAssets UP-TO-DATE
+> Task :react-native-safe-area-context:mergeDebugAssets
+> Task :react-native-screens:mergeDebugShaders
+> Task :react-native-screens:compileDebugShaders NO-SOURCE
+> Task :react-native-screens:generateDebugAssets UP-TO-DATE
+> Task :react-native-screens:mergeDebugAssets
+> Task :expo-modules-core:configureCMakeDebug[arm64-v8a]
+
+> Task :react-native-worklets:compileDebugJavaWithJavac
+Note: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\react-native-worklets\android\src\main\java\com\swmansion\worklets\WorkletsPackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-async-storage_async-storage:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: C:\Users\Windows 10\OneDrive\Desktop\DAVOMATAPP\node_modules\@react-native-async-storage\async-storage\android\src\javaPackage\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-async-storage_async-storage:bundleLibCompileToJarDebug
+> Task :react-native-worklets:bundleLibCompileToJarDebug
+> Task :react-native-async-storage_async-storage:mergeDebugShaders
+> Task :react-native-async-storage_async-storage:compileDebugShaders NO-SOURCE
+> Task :react-native-async-storage_async-storage:generateDebugAssets UP-TO-DATE
+> Task :react-native-async-storage_async-storage:mergeDebugAssets
+> Task :react-native-worklets:mergeDebugShaders
+> Task :react-native-worklets:compileDebugShaders NO-SOURCE
+> Task :react-native-worklets:generateDebugAssets UP-TO-DATE
+> Task :react-native-worklets:mergeDebugAssets
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToJarDebug
+
+> Task :react-native-reanimated:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-reanimated:bundleLibCompileToJarDebug
+> Task :react-native-reanimated:bundleLibRuntimeToJarDebug
+
+> Task :react-native-svg:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-svg:mergeDebugShaders
+> Task :react-native-svg:compileDebugShaders NO-SOURCE
+> Task :react-native-svg:generateDebugAssets UP-TO-DATE
+> Task :react-native-worklets:bundleLibRuntimeToJarDebug
+> Task :react-native-svg:mergeDebugAssets
+> Task :react-native-async-storage_async-storage:processDebugJavaRes NO-SOURCE
+> Task :react-native-svg:processDebugJavaRes NO-SOURCE
+> Task :react-native-worklets:processDebugJavaRes NO-SOURCE
+> Task :react-native-async-storage_async-storage:bundleLibRuntimeToDirDebug
+> Task :react-native-svg:bundleLibRuntimeToJarDebug
+> Task :react-native-reanimated:bundleLibRuntimeToDirDebug
+> Task :react-native-worklets:bundleLibRuntimeToDirDebug
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a]
+C/C++: ninja: Entering directory `C:\DAVOMATAPP\node_modules\expo-modules-core\android\.cxx\Debug\3wp6vz1e\arm64-v8a'
+C/C++: In file included from <built-in>:1:
+C/C++: In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx:5:
+C/C++: In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/cpp/ExpoHeader.pch:14:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+
+> Task :react-native-svg:bundleLibCompileToJarDebug
+
+> Task :expo-modules-core:buildCMakeDebug[arm64-v8a] FAILED
+C/C++: In file included from <built-in>:1:
+C/C++: In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/CMakeFiles/expo-modules-core.dir/cmake_pch.hxx:5:
+C/C++: In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/cpp/ExpoHeader.pch:14:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+C/C++: In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:               ~~~~~^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                            ^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+C/C++: class F14HashToken final {
+C/C++:       ^
+C/C++: C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+C/C++: static_assert(std::regular<F14HashToken>);
+C/C++:                                         ^
+C/C++: 3 errors generated.
+
+> Task :react-native-svg:bundleLibRuntimeToDirDebug
+
+> Task :app:processDebugMainManifest
+C:\DAVOMATAPP\android\app\src\debug\AndroidManifest.xml:6:5-162 Warning:
+	application@android:usesCleartextTraffic was tagged at AndroidManifest.xml:6 to replace other declarations but no other declaration present
+C:\DAVOMATAPP\android\app\src\debug\AndroidManifest.xml Warning:
+	provider#expo.modules.filesystem.FileSystemFileProvider@android:authorities was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+C:\DAVOMATAPP\android\app\src\debug\AndroidManifest.xml Warning:
+	activity#expo.modules.imagepicker.ExpoCropImageActivity@android:exported was tagged at AndroidManifest.xml:0 to replace other declarations but no other declaration present
+
+> Task :app:mergeDebugResources
+> Task :expo-modules-core:compileDebugKotlin
+> Task :react-native-safe-area-context:compileDebugKotlin
+> Task :react-native-screens:compileDebugKotlin
+
+> Task :react-native-safe-area-context:compileDebugKotlin
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-safe-area-context/android/src/main/java/com/th3rdwave/safeareacontext/SafeAreaView.kt:59:23 'val uiImplementation: UIImplementation!' is deprecated. Deprecated in Java.
+
+> Task :react-native-gesture-handler:compileDebugKotlin
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-gesture-handler/android/src/main/java/com/swmansion/gesturehandler/react/RNGestureHandlerRootView.kt:41:43 The corresponding parameter in the supertype 'ReactViewGroup' is named 'ev'. This may cause problems when calling this function with named arguments.
+
+> Task :react-native-screens:compileDebugKotlin
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:56:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'name'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:57:9 The corresponding parameter in the supertype 'BaseReactPackage' is named 'reactContext'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/RNScreensPackage.kt:70:17 'constructor(name: String, className: String, canOverrideExistingModule: Boolean, needsEagerInit: Boolean, hasConstants: Boolean, isCxxModule: Boolean, isTurboModule: Boolean): ReactModuleInfo' is deprecated. This constructor is deprecated and will be removed in the future. Use ReactModuleInfo(String, String, boolean, boolean, boolean, boolean)].
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:48:77 Unchecked cast of '(CoordinatorLayout.Behavior<View!>?..CoordinatorLayout.Behavior<*>?)' to 'BottomSheetBehavior<Screen>'.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:383:36 'fun setTranslucent(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:402:36 'fun setColor(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:420:36 'fun setNavigationBarColor(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/Screen.kt:437:36 'fun setNavigationBarTranslucent(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:217:31 'var targetElevation: Float' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:220:13 'fun setHasOptionsMenu(p0: Boolean): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:397:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:404:22 'fun onPrepareOptionsMenu(p0: Menu): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:407:18 This declaration overrides a deprecated member but is not marked as deprecated itself. Add the '@Deprecated' annotation or suppress the diagnostic.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackFragment.kt:412:22 'fun onCreateOptionsMenu(p0: Menu, p1: MenuInflater): Unit' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenStackHeaderConfig.kt:435:18 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:203:14 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:220:14 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:237:14 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenViewManager.kt:246:14 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:55:42 'fun replaceSystemWindowInsets(p0: Int, p1: Int, p2: Int, p3: Int): WindowInsetsCompat' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:56:39 'val systemWindowInsetLeft: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:58:39 'val systemWindowInsetRight: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:59:39 'val systemWindowInsetBottom: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:102:53 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:106:37 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:113:48 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:116:32 'var statusBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:162:49 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:218:43 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:218:72 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:224:16 'var navigationBarColor: Int' is deprecated. Deprecated in Java.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:241:55 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:283:13 'fun setColor(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:285:13 'fun setTranslucent(screen: Screen, activity: Activity?, context: ReactContext?): Unit' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:289:13 'fun setNavigationBarColor(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:290:13 'fun setNavigationBarTranslucent(screen: Screen, activity: Activity?): Unit' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:354:42 'var statusBarColor: Int?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:356:48 'var isStatusBarTranslucent: Boolean?' is deprecated. For apps targeting SDK 35 or above this prop has no effect because edge-to-edge is enabled by default and the status bar is always translucent.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:359:57 'var navigationBarColor: Int?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/ScreenWindowTraits.kt:360:63 'var isNavigationBarTranslucent: Boolean?' is deprecated. For all apps targeting Android SDK 35 or above edge-to-edge is enabled by default.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:7:8 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:25:13 'object ReactFeatureFlags : Any' is deprecated. Use com.facebook.react.internal.featureflags.ReactNativeFeatureFlags instead.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:32:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'left'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:33:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'top'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:34:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'right'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:35:9 The corresponding parameter in the supertype 'ReactViewGroup' is named 'bottom'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:71:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:72:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:79:46 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:83:9 The corresponding parameter in the supertype 'RootView' is named 'childView'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:84:9 The corresponding parameter in the supertype 'RootView' is named 'ev'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/BottomSheetDialogRootView.kt:95:34 The corresponding parameter in the supertype 'RootView' is named 't'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:63:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchX'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:64:9 The corresponding parameter in the supertype 'ReactCompoundView' is named 'touchY'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:68:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchX'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/bottomsheet/DimmingView.kt:69:9 The corresponding parameter in the supertype 'ReactCompoundViewGroup' is named 'touchY'. This may cause problems when calling this function with named arguments.
+w: file:///C:/Users/Windows%2010/OneDrive/Desktop/DAVOMATAPP/node_modules/react-native-screens/android/src/main/java/com/swmansion/rnscreens/gamma/tabs/TabsHostViewManager.kt:37:9 The corresponding parameter in the supertype 'TabsHostViewManager' is named 'view'. This may cause problems when calling this function with named arguments.
+
+> Task :expo-modules-core:compileDebugKotlin
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/apploader/RNHeadlessAppLoader.kt:48:87 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/apploader/RNHeadlessAppLoader.kt:91:85 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/adapters/react/apploader/RNHeadlessAppLoader.kt:120:83 'val reactNativeHost: ReactNativeHost' is deprecated. You should not use ReactNativeHost directly in the New Architecture. Use ReactHost instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/apploader/AppLoaderProvider.kt:34:52 Unchecked cast of 'Class<*>!' to 'Class<out HeadlessAppLoader>'.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:30:8 'typealias ErrorManagerModule = JSLoggerModule' is deprecated. Use JSLoggerModule instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:253:21 'typealias ErrorManagerModule = JSLoggerModule' is deprecated. Use JSLoggerModule instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/AppContext.kt:343:21 'val DEFAULT: Int' is deprecated. UIManagerType.DEFAULT will be deleted in the next release of React Native. Use [LEGACY] instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/defaultmodules/NativeModulesProxyModule.kt:16:5 'fun Constants(legacyConstantsProvider: () -> Map<String, Any?>): Unit' is deprecated. Use `Constant` or `Property` instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/PromiseImpl.kt:65:51 'val errorManager: JSLoggerModule?' is deprecated. Use AppContext.jsLogger instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/jni/PromiseImpl.kt:69:22 'fun reportExceptionToLogBox(codedException: CodedException): Unit' is deprecated. Use appContext.jsLogger.error(...) instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewDefinitionBuilder.kt:464:16 'val errorManager: JSLoggerModule?' is deprecated. Use AppContext.jsLogger instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewDefinitionBuilder.kt:464:30 'fun reportExceptionToLogBox(codedException: CodedException): Unit' is deprecated. Use appContext.jsLogger.error(...) instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewManagerDefinition.kt:41:16 'val errorManager: JSLoggerModule?' is deprecated. Use AppContext.jsLogger instead.
+w: file:///C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/java/expo/modules/kotlin/views/ViewManagerDefinition.kt:41:30 'fun reportExceptionToLogBox(codedException: CodedException): Unit' is deprecated. Use appContext.jsLogger.error(...) instead.
+
+[Incubating] Problems report is available at: file:///C:/DAVOMATAPP/android/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':expo-modules-core:buildCMakeDebug[arm64-v8a]'.
+> com.android.ide.common.process.ProcessException: ninja: Entering directory `C:\DAVOMATAPP\node_modules\expo-modules-core\android\.cxx\Debug\3wp6vz1e\arm64-v8a'
+  [1/49] Building CXX object src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch
+  FAILED: src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch 
+  C:\Users\WINDOW~1\AppData\Local\Android\Sdk\ndk\251~1.893\TOOLCH~1\llvm\prebuilt\WINDOW~1\bin\CLANG_~1.EXE --target=aarch64-none-linux-android24 --sysroot="C:/Users/Windows 10/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot"  -IC:/DAVOMATAPP/node_modules/react-native/ReactCommon -IC:/DAVOMATAPP/node_modules/expo-modules-core/android/../common/cpp/fabric -I"C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/react/fabric" -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/c4ed38aee617328a15ca67287b31027e/transformed/fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/jsi/include" -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_TARGET_VERSION=81 -fno-limit-debug-info  -fPIC -std=c++20 -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -O2 -frtti -fexceptions -Wall -fstack-protector-all -DUSE_HERMES=0 -DUNIT_TEST=0 -DIS_NEW_ARCHITECTURE_ENABLED=1 -DRN_FABRIC_ENABLED=1 -DRN_SERIALIZABLE_STATE=1 -std=gnu++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx -x c++-header -MD -MT src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch -MF src\fabric\CMakeFiles\fabric.dir\cmake_pch.hxx.pch.d -o src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.pch -c C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx.cxx
+  In file included from <built-in>:1:
+  In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/src/fabric/CMakeFiles/fabric.dir/cmake_pch.hxx:5:
+  In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/cpp/ExpoHeader.pch:14:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  [2/49] Building CXX object CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.pch
+  FAILED: CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.pch 
+  C:\Users\WINDOW~1\AppData\Local\Android\Sdk\ndk\251~1.893\TOOLCH~1\llvm\prebuilt\WINDOW~1\bin\CLANG_~1.EXE --target=aarch64-none-linux-android24 --sysroot="C:/Users/Windows 10/AppData/Local/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/windows-x86_64/sysroot" -Dexpo_modules_core_EXPORTS -I"C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/react" -IC:/DAVOMATAPP/node_modules/react-native/ReactAndroid/src/main/jni/react/turbomodule -IC:/DAVOMATAPP/node_modules/expo-modules-core/android/../common/cpp -IC:/DAVOMATAPP/node_modules/expo-modules-core/android/src/fabric -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/c4ed38aee617328a15ca67287b31027e/transformed/fbjni-0.7.0/prefab/modules/fbjni/include" -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/jsi/include" -isystem "C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include" -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -DREACT_NATIVE_TARGET_VERSION=81 -fno-limit-debug-info  -fPIC -DFOLLY_NO_CONFIG=1 -DFOLLY_HAVE_CLOCK_GETTIME=1 -DFOLLY_USE_LIBCPP=1 -DFOLLY_CFG_NO_COROUTINES=1 -DFOLLY_MOBILE=1 -DFOLLY_HAVE_RECVMMSG=1 -DFOLLY_HAVE_PTHREAD=1 -DFOLLY_HAVE_XSI_STRERROR_R=1 -O2 -frtti -fexceptions -Wall -fstack-protector-all -DUSE_HERMES=0 -DUNIT_TEST=0 -DIS_NEW_ARCHITECTURE_ENABLED=1 -DRN_FABRIC_ENABLED=1 -DRN_SERIALIZABLE_STATE=1 -std=gnu++20 -Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/CMakeFiles/expo-modules-core.dir/cmake_pch.hxx -x c++-header -MD -MT CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.pch -MF CMakeFiles\expo-modules-core.dir\cmake_pch.hxx.pch.d -o CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.pch -c C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/CMakeFiles/expo-modules-core.dir/cmake_pch.hxx.cxx
+  In file included from <built-in>:1:
+  In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/.cxx/Debug/3wp6vz1e/arm64-v8a/CMakeFiles/expo-modules-core.dir/cmake_pch.hxx:5:
+  In file included from C:/DAVOMATAPP/node_modules/expo-modules-core/android/src/main/cpp/ExpoHeader.pch:14:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/dynamic.h:17:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/json/dynamic.h:74:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/F14Map.h:41:
+  In file included from C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14MapFallback.h:26:
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:20: error: no member named 'regular' in namespace 'std'
+  static_assert(std::regular<F14HashToken>);
+                ~~~~~^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:28: error: 'F14HashToken' does not refer to a value
+  static_assert(std::regular<F14HashToken>);
+                             ^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:241:7: note: declared here
+  class F14HashToken final {
+        ^
+  C:/Users/Windows 10/.gradle/caches/8.14.3/transforms/b2680b08f1e2cb52f3dff51eef1dacfb/transformed/react-android-0.81.5-debug/prefab/modules/reactnative/include/folly/container/detail/F14Table.h:254:41: error: expected expression
+  static_assert(std::regular<F14HashToken>);
+                                          ^
+  3 errors generated.
+  ninja: build stopped: subcommand failed.
+  
+  C++ build system [build] failed while executing:
+      @echo off
+      "C:\\Users\\Windows 10\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+        -C ^
+        "C:\\DAVOMATAPP\\node_modules\\expo-modules-core\\android\\.cxx\\Debug\\3wp6vz1e\\arm64-v8a" ^
+        expo-modules-core
+    from C:\DAVOMATAPP\node_modules\expo-modules-core\android
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 1m 6s
+230 actionable tasks: 194 executed, 36 up-to-date

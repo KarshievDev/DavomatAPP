@@ -1,0 +1,117 @@
+================================================================================
+          DAVOMATAPP / WORKPAY.UZ - TO'LIQ FOYDALANUVCHI YO'RIQNOMASI
+================================================================================
+
+Ushbu yo'riqnoma tizimning barcha imkoniyatlari, ishlash mexanizmlari va 
+adminlar hamda xodimlar uchun muhim qoidalar haqida batafsil ma'lumot beradi.
+
+--------------------------------------------------------------------------------
+1. TIZIMGA KIRISH VA ROLLAR
+--------------------------------------------------------------------------------
+
+Tizimda 4 xil turdagi foydalanuvchi rollari mavjud:
+*   SUPERADMIN: Tizimning barcha qismlarini nazorat qiladi (Rollar, Filiallar, Oylar yakuni).
+*   ADMIN: Hisobotlarni ko'rish, jarimalar va to'lovlarni boshqarish huquqiga ega.
+*   MANAGER: Faqat o'ziga biriktirilgan filial xodimlari davomatini kuzatishi mumkin.
+*   XODIM (EMPLOYEE): Faqat o'z davomatini qayd etadi va shaxsiy balansini ko'radi.
+
+--------------------------------------------------------------------------------
+2. DAVOMAT TIZIMI (CHECK-IN / CHECK-OUT)
+--------------------------------------------------------------------------------
+
+*   ISHNI BOSHLASH (Check-in): Xodim ishga kelganda kamerasini yoqadi, suratga tushadi 
+    va tugmani bosadi. Tizim avtomatik ravishda xodimning GPS koordinatalarini 
+    filial koordinatalari bilan solishtiradi (Radius odatda 100-200m).
+*   ISHNI YAKUNLASH (Check-out): Ish kuni tugagach, xodim yana qaytadan suratga tushib, 
+    chiqishni qayd etadi.
+*   TUNGI SMENALAR: Tizim 24 soatlik rejimda ishlaydi. Agar xodim bugun soat 20:00 da 
+    kirib, ertasi kuni 04:00 da chiqsa, tizim buni bitta smena sifatida (8 soat) 
+    to'g'ri hisoblaydi.
+
+--------------------------------------------------------------------------------
+3. BALANS VA ISH HAQI HISOB-KITOBI
+--------------------------------------------------------------------------------
+
+Tizim ishlangan vaqt uchun oylikni quyidagi mantiq asosida hisoblaydi:
+*   STAVKA (Hourly Rate): Xodimning oyligi, ish kunlari va kunlik ish soatidan kelib 
+    chiqib hisoblanadi. (Masalan: 3mln oylik / 26 kun / 10 soat = stavka).
+*   XRONOLOGIK HISOB: Agar oylik o'rtasida xodimning ish vaqti yoki maoshi o'zgarsa, 
+    tizim eski kunlarni eski stavka bilan, yangi kunlarni yangi stavka bilan 
+    mustaqil hisoblab boradi.
+*   QOLGAN SUMMA: (Ishlagan soati × Stavka) - Jarimalar - Berilgan avanslar.
+
+--------------------------------------------------------------------------------
+4. JARIMALAR VA UZOQLASHISHLAR
+--------------------------------------------------------------------------------
+
+*   AVTOMATIK JARIMA: Tizim xodim ishga kech kelsa yoki vaqtidan oldin ketsa, 
+    admin paneldagi "Jarima turlari" bo'limida belgilangan miqdor bo'yicha 
+    avtomatik jarima yaratadi.
+*   UZOQLASHISHLAR (Absences): Xodim ish vaqtida biron yumush bilan ketishi kerak 
+    bo'lsa, ilovadan "Uzoqlashish" so'rovini yuboradi. Admin buni "Tasdiqlasa" - 
+    bu vaqt uchun pul to'lanadi; "Rad etsa" - ishlagan vaqtidan avtomatik chegiriladi.
+*   JARIMALARNI TASDIQLASH: Barcha avtomatik jarimalar admin tomonidan 
+    "Approved" holatiga o'tkazilmaguncha xodim balansidan ayrilmaydi.
+
+--------------------------------------------------------------------------------
+5. TO'LOVLAR (AVANS VA OYLIK)
+--------------------------------------------------------------------------------
+
+*   AVANS BERISH: Admin "To'lovlar" bo'limidan xodimga berilgan pulni qayd etishi 
+    shart. Bu summa xodimning umumiy balansidan (Qolgan summa) chegiriladi.
+*   OYLIK TO'LOVI: Oy oxirida to'liq oylik berilganda ham uni "Salary" turi bilan 
+    qayd etsangiz, xodim balansini to'g'ri yopishga yordam beradi.
+
+--------------------------------------------------------------------------------
+6. XARAJATLAR (EXPENSES)
+--------------------------------------------------------------------------------
+
+Adminlar uchun biznes xarajatlarini kuzatish imkoniyati mavjud.
+*   Kategoriyalar: Arenda, Svet, Ovqat va sh.k.
+*   Har bir xarajatni ma'lum bir filialga biriktirish mumkin, bu esa foyda-ziyonni 
+    aniqlashda yordam beradi.
+
+--------------------------------------------------------------------------------
+7. OY YAKUNI VA ARXIVLASH (MONTH END)
+--------------------------------------------------------------------------------
+
+Ushbu funksiya faqat **SUPERADMIN** uchun va faqat **OYNING OXIRGI KUNIDA** menyuda paydo bo'ladi.
+*   Vazifasi: Oy oxirida hamma hisob-kitoblar tugagach, ushbu tugma bosiladi. 
+*   Natija: Xodimlarning oydagi natijalari "Oylar arxivi"ga ko'chiriladi va 
+    barcha balanslar 0 ga tushiriladi. Yangi oy 0 dan boshlanadi.
+*   ARXIV: "Oylar arxivi" bo'limida o'tgan oylarda kim qancha soat ishlagan va 
+    qancha pul olganini istalgan paytda ko'rish mumkin.
+
+--------------------------------------------------------------------------------
+8. ADMINLAR UCHUN MUHIM TASDIQLASHLAR
+--------------------------------------------------------------------------------
+
+Dashboard oynasining tepasida ko'k rangli bildirishnoma paneli mavjud. U yerda:
+*   Tasdiqlanmagan jarimalar.
+*   Kutilayotgan dam olish so'rovlari.
+*   Uzoqlashishlar haqida ma'lumot beriladi.
+Adminga ushbu bo'limlarni har kuni tekshirib turish tavsiya etiladi.
+
+--------------------------------------------------------------------------------
+9. XAVFSIZLIK VA LOGLAR
+--------------------------------------------------------------------------------
+
+*   ADMIN LOGS: Kim biron davomatni o'zgartirsa yoki jarimani bekor qilsa, tizim 
+    buni "O'zgartirishlar" bo'limida yozib boradi. Admin sababini yozishi shart.
+*   LOGIN LOGS: Xodimlar qaysi qurilmadan (IP va telefon modeli) tizimga 
+    kirayotgani kuzatib boriladi.
+
+--------------------------------------------------------------------------------
+10. TEXNIK TAVSIYALAR
+--------------------------------------------------------------------------------
+
+1.  GPS: Ilovadan foydalanayotganda telefonida GPS yoqilgan bo'lishi shart.
+2.  SURAT (PHOTO): Surat tushishda yuz aniq ko'rinishi va kadrda faqat bitta 
+    odam bo'lishi maqsadga muvofiq.
+3.  BALANS: Agar balansda shubhali summa ko'rinsa, Superadmin "Xodimlar" 
+    bo'limidagi "SYNC ALL" tugmasini bosib, barcha balanslarni hisobotlar bilan 
+    qayta sinxronizatsiya qilishi mumkin.
+
+Copyright © 2026 WorkPay.uz
+Tizim barqaror ishlashi uchun muntazam ravishda ma'lumotlarni tekshirib boring.
+================================================================================
