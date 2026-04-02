@@ -1,0 +1,39 @@
+DAVOMATAPP: To'liq Funksional Master Prompt (Re-creation Guide)
+
+Menga xodimlar davomati, moliyaviy hisobotlar va GPS nazoratiga asoslangan "DAVOMATAPP" tizimini yaratib ber. Tizim quyidagi texnologiyalarda bo'lsin: PHP (Vanilla), MySQL (PDO), Tailwind CSS, va Remix Icons kutubxonasi.
+
+Arxitektura va struktura:
+1. config.php: Bazaga ulanish va avtomatik migratsiyalar (jadvallarni o'zi yaratishi, is_blocked, off_day_type kabi ustunlar bilan) uchun.
+2. index.php: Barcha admin boshqaruv paneli (yagona fayl ichida tablar orqali: Dashboard, Attendance, Reporting, Employees, Branches, Absences, Offdays, Payments, Fines, Expenses, Notifications, Warnings, Tasks, Logs).
+3. api.php: Mobil ilova uchun to'liq JSON API (Login, Attendance + GPS + Image Upload, Tasks, Absences, Offdays).
+4. Filtrlar: Barcha bo'limlarda PHP $_SESSION-ga asoslangan persistent filtrlar (Branch, Date, Search, Period). Filtrni tozalash (Clear) mexanizmi bilan.
+
+Asosiy modullar va biznes-mantiq:
+1. Xodimlarni boshqarish:
+   - F.I.SH, Lavozim, Filial, Ish vaqti (masalan 09:00-18:00), Oylik maosh.
+   - Dam olish turi: 'Custom' (kunlar soni) yoki 'Sunday' (joriy oydagi yakshanbalarni avtomatik sanash).
+   - Bloklash: Superadmin xodimlarni vaqtincha bloklashi mumkin. Bloklangan xodim na web-panelga, na mobil ilovaga kira oladi.
+   - Hisob-kitob: Soatbay stavka = Maosh / (Ish kuni * Ish soati).
+2. GPS Davomat:
+   - Xodim faqat belgilangan filial radiusida (masalan 200m) Check-in qila olsin.
+   - Avto-Jarima: 10, 30, 60 daqiqalik kechikishlar va erta ketishlar uchun avtomatik jarima hisoblash. Lateness_warnings jadvalidan ogohlantirishlarni inobatga olish.
+   - Balans: Check-out qilinganda ishlagan soati uchun pullar xodim balansiga real vaqtda qo'shilsin.
+3. Moliya va Xarajatlar:
+   - Xarajat kategoriyalari (Arenda, Ovqat va h.k.).
+   - To'lovlar (Avans, Oylik, Bonus).
+   - To'lovlar va jarimalar xodim balansiga real vaqtda ta'sir qilsin (syncEmployeeBalance).
+4. Reporting (Hisobotlar):
+   - Xodimlar ro'yxatida har bir xodim yonida oxirgi 3 kunlik davomat vaqtlari (Check-in/Check-out) 'Visual snippet' bo'lib ko'rinsin.
+   - Oy yakunlash (Month Closing) funksiyasi: barcha ma'lumotlarni monthly_reports-ga arxivlash va balanslarni 0 ga tushirish.
+5. Tahrirlash tarixi (Attendance Edits):
+   - Admin davomat vaqtini o'zgartirsa, eski/yangi vaqtlar va sababi attendance_edits jadvalida saqlansin.
+   - UI Date Bug Fix: Agar eski sana 0000-00-00 bo'lsa, UI uni yangi sana bilan o'rnini almashtirib ko'rsatsin.
+
+Dizayn (Premium Aesthetics):
+- Ranglar: Slate (bg), Blue (primary), Emerald (success), Rose (danger).
+- Glassmorphism elementlari, yumaloq burchaklar (rounded-[2rem] yoki rounded-[3rem]), jonli animatsiyalar (hover effects, slide-ins).
+- Sidebar: Sticky bo'lishi va ichida pending requests (Absences, Fines) soni qizil doira bilan ko'rinishi kerak.
+
+Xavfsizlik:
+- Har bir sahifa chaqirilganda xodimning bloklanganligini DB-dan tekshirish.
+- API-da har bir action-da is_blocked flagini inobatga olish.
